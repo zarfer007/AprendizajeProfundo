@@ -114,7 +114,7 @@ if __name__ == "__main__":
     pad_sequences = PadSequences(
         pad_value=0,
         max_length=None,
-        min_length=max(filters_lenght) #max conv
+        min_length=4 #max conv
     )
 
     logging.info("Building training dataset")
