@@ -183,7 +183,6 @@ if __name__ == "__main__":
             pretrained_embeddings_path=args.pretrained_embeddings,
             token_to_index=args.token_to_index,
             n_labels=train_dataset.n_labels,
-            hidden_layers=args.hidden_layers,
             dropout=args.dropout,
             vector_size=args.embeddings_size,
             freeze_embedings=True  # This can be a hyperparameter
