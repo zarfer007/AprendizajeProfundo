@@ -29,4 +29,4 @@ python -m experiment.mlp \
     --language spanish \
     --hidden-layers 256 128 \
     --validation-data ./data/meli-challenge-2019/spanish.validation.jsonl.gz \
-    --dropout 0.025
+    --dropout 0.35
