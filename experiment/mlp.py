@@ -28,7 +28,7 @@ class MLPClassifier(nn.Module):
                  token_to_index,
                  n_labels,
                  hidden_layers=[256, 128],
-                 dropout=0.025, # Reduced to see close to non-dropout situation
+                 dropout=0.35, # Reduced to see close to non-dropout situation
                  vector_size=300,
                  freeze_embedings=True):
         super().__init__()
